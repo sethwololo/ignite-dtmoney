@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     --red: #e52e4d;
     --purple: #5429cc;
     --purple-light: #6933ff;
+    --green: #33cc95;
     --text-title: #363f5f;
     --text-body: #969cb3;
     --shape: #ffffff;
@@ -24,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(---background);
+    background: var(--background);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-smooth: always;
